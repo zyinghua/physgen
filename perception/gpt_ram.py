@@ -19,7 +19,7 @@ class GPTV_ram:
         try_count = 0
         while True:
             response = openai.ChatCompletion.create(
-            model="gpt-4-vision-preview",
+            model="gpt-4o",
             messages=[{
             "role": "system",
             "content": self.query
